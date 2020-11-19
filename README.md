@@ -18,3 +18,11 @@ You will need to fork this repository because you will be making changes in your
 ### Create Application from GitHub
 ### Scale application
 ### Connect Application to GitHub Webhook
+### Make Changes to application
+Now that you have connected your application to GitHub Webhook, make a change in app.py file by adding the following lines right above line 16.
+```
+@app.route('/test')
+def get_test():
+    return 'You are accessing /test endpoint'
+```
+### See Changes on Web Console
