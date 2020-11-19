@@ -21,6 +21,12 @@ Switch to the Developer Perspective, and from the topology create application fr
 ![topology](https://user-images.githubusercontent.com/36239840/99640028-d47ba780-2a61-11eb-9345-eef6da18b245.JPG)
 Copy the URL of the GitHub repository that you forked and paste it under 'Git Repo URL', and choose Python 3.6 for your builder image, then click 'Create'.<br>
 ![git app](https://user-images.githubusercontent.com/36239840/99640275-1b699d00-2a62-11eb-9d8d-aab23c988e93.JPG)
+Once created, you will be redirected to the topology view where you can view your pods. Once the application is built successfully, the pod will turn from light blue to dark blue. You can access the URL of the application from the top corner of the pod as shown in the image.<br>
+![app](https://user-images.githubusercontent.com/36239840/99641007-2244df80-2a63-11eb-85b4-20b575721aa3.JPG)
+You will be redirected to a simple Hello World page.<br>
+![hello world](https://user-images.githubusercontent.com/36239840/99641191-5cae7c80-2a63-11eb-8f98-71ca6aef8bc2.JPG)
+If you add ```/version``` at the end of the URL, you will be redirected to a different route with the following details.<br>
+![version](https://user-images.githubusercontent.com/36239840/99641407-a7c88f80-2a63-11eb-8603-e2189a76d3c9.JPG)
 ### Scale application
 ### Connect Application to GitHub Webhook
 ### Make Changes to application
