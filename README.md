@@ -54,3 +54,4 @@ If you go back to the web console, you will notice the new builds
 ![trigger webhook](https://user-images.githubusercontent.com/36239840/99654077-45778b00-2a73-11eb-95a9-4b782bef4285.JPG)
 You can access the new route from ```<url>/test```, and it will look like the following.
 ![test route](https://user-images.githubusercontent.com/36239840/99654537-e8c8a000-2a73-11eb-8c29-286194266e61.JPG)
+Keep in mind that everytime you commit new changes, new builds will get triggered.
