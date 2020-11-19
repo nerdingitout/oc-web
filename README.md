@@ -43,10 +43,14 @@ Now go to Settings in your GitHub repository, then go to Webhooks tab where you 
 
 
 ### Make Changes to application
-Now that you have connected your application to GitHub Webhook, make a change in app.py file by adding the following lines right above line 16.
+Now that you have connected your application to GitHub Webhook, make a change in app.py file by adding the following lines right above line 16. These lines of code add a new route in the application.
 ```
 @app.route('/test')
 def get_test():
     return 'You are accessing /test endpoint'
 ```
 ### See Changes on Web Console
+If you go back to the web console, you will notice the new builds
+![trigger webhook](https://user-images.githubusercontent.com/36239840/99654077-45778b00-2a73-11eb-95a9-4b782bef4285.JPG)
+You can access the new route from ```<url>/test```, and it will look like the following.
+![test route](https://user-images.githubusercontent.com/36239840/99654537-e8c8a000-2a73-11eb-8c29-286194266e61.JPG)
