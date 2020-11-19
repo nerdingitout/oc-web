@@ -28,6 +28,10 @@ You will be redirected to a simple Hello World page.<br>
 If you add ```/version``` at the end of the URL, you will be redirected to a different route with the following details.<br>
 ![version](https://user-images.githubusercontent.com/36239840/99641407-a7c88f80-2a63-11eb-8603-e2189a76d3c9.JPG)
 ### Scale application
+To scale your application, you can simply do it on the web console by clicking on top arrow.<br>
+![scale](https://user-images.githubusercontent.com/36239840/99646668-32ac8880-2a6a-11eb-9a2f-a7dfb898a1bb.JPG)
+
+
 ### Connect Application to GitHub Webhook
 ### Make Changes to application
 Now that you have connected your application to GitHub Webhook, make a change in app.py file by adding the following lines right above line 16.
