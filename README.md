@@ -1,4 +1,4 @@
-# Red Hat OpenShift for Web Development
+# Red Hat OpenShift for Developers
 This tutorial aims to introduce some of the features in OpenShift that are useful for building web applications using S2I and Docker Images.<br>
 In this tutorial you will learn:<br>
 - Building web applications and deploying on OpenShift from scratch
