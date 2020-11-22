@@ -27,11 +27,6 @@ In this tutorial you will learn:<br>
 ![hello world](https://user-images.githubusercontent.com/36239840/99641191-5cae7c80-2a63-11eb-8f98-71ca6aef8bc2.JPG)
 - If you add ```/version``` at the end of the URL, you will be redirected to a different route with the following details.<br>
 ![version](https://user-images.githubusercontent.com/36239840/99641407-a7c88f80-2a63-11eb-8603-e2189a76d3c9.JPG)
-### Scale application
-- To scale your application, you can simply do it on the web console by clicking on top arrow.<br>
-![scale](https://user-images.githubusercontent.com/36239840/99646668-32ac8880-2a6a-11eb-9a2f-a7dfb898a1bb.JPG)
-- If you go to Deployments -> Deployment Details -> Pods, you will find the newly created replicas.<br>
-![replicas](https://user-images.githubusercontent.com/36239840/99646767-55d73800-2a6a-11eb-9122-1b26aa0546e8.JPG)
 
 ### Connect Application to GitHub Webhook
 - Go to <b>Builds</b> where you can show Build Configs. Click on 'my-flask-app' where you will be redirected to an overview page of the build configs of the application.<br>
