@@ -1,10 +1,14 @@
 # Red Hat OpenShift for Developers
-This tutorial aims to introduce some of the features in OpenShift that are useful for building web applications using S2I and Docker Images.<br>
+This tutorial aims to introduce 2 things which are essential for Developers using OpenShift: <br>
+- **Part1**: How to deploy/scale/update and rollback applications using existing Docker Images
+- **Part2**: Building web applications using S2I from Github directly and how to automate deployments
+
 In this tutorial you will learn:<br>
-- Building web applications and deploying on OpenShift from scratch
-- autotmating deployment using GitHub Webhooks
-- Scaling Applications
-- Update and Rollback
+- For **Part1** - Follow the instructions in this [gitbook](https://masamh.gitbook.io/oc-dev/)
+- For **Part2** - Follow the instructions in this [gitbook](https://masamh.gitbook.io/oc-dev/automating-deployment)
+
+The source code for **Part2** exercise is hosted here.
+
 ## Prerequisites
 - Create your IBM Cloud account for free <a href="#">here</a>.
 - Access to free OpenShift Cluster:
